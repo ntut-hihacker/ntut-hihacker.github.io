@@ -51,13 +51,18 @@ body{
         transform: translateY(-10vh) scale(1);
     }
 }
+
 nav{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20vw;
     backdrop-filter: blur(15px);
+}
+@media screen and (min-width: 1024px){
+    nav{
+        padding: 0 20vw;
+    }
 }
 nav > div > a{
     margin: 0 10px;
